@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Caveat';
+    src: url('fonts/Caveat-Regular.ttf') format('truetype');
+}
+
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 1800px;
+    font-family: 'Caveat', cursive, sans-serif; /* Update font-family to reflect custom font */
+    height: 100vh; /* Altura completa de la ventana */
+    background-image: url('background/fondo1.png'); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    display: flex; /* Para centrar el contenido */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    /*color: white;  Color del texto */
+    text-align: center; /* Alinear texto al centro */   
+
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.2); /* Transparent White */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    color: red;
+    width: 500px;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 3em;
+    color: red;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background: linear-gradient(135deg, #f3153a, #ee4368);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(255, 118, 141, 0.5);
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(135deg, #f3153a, #ee4368);
+}
